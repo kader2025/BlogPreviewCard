@@ -1,0 +1,36 @@
+:root {
+  /* colors */
+  --primary-color: #f4d04e;
+  --second-color: #111111;
+  --last-color: #6b6b6b;
+  --whit-color: #ffffff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: var(--primary-color);
+}
+.card {
+  width: 384px;
+  height: 522px;
+  background-color: var(--whit-color);
+  padding: 24px 24px 24px 24px;
+  display: grid;
+  border-radius: 20px;
+}
+.Image {
+  border-radius: 10px;
+  height: 100%;
+  width: 200px;
+}
+.Image svg {
+    width:100px;
+    height: auto;
+}
