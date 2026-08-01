@@ -31,13 +31,10 @@ body {
   grid-gap: 24px;
 }
 
-
 .card .descktop {
-  
   border-radius: 10px;
 }
 .card .mobile {
-  
   display: none;
 }
 .card .Content {
@@ -46,7 +43,7 @@ body {
   grid-auto-flow: row;
   grid-gap: 12px;
 }
-.Title:hover{
+.Title:hover {
   color: var(--primary-color);
 }
 .Content .Categorie {
@@ -87,20 +84,15 @@ body {
     width: 327px;
     height: 501px;
   }
- 
 
   .card .descktop {
-   
-   display: none;
-   
+    display: none;
   }
   .card .mobile {
-   
     display: block;
     height: auto;
     border-radius: 10px;
-    
-   }
+  }
   .card .Content {
     display: grid;
     align-content: space-between;
@@ -109,7 +101,6 @@ body {
     width: 279px;
     height: 173px;
   }
- 
 
   /* .card .Content {
     display: grid;
